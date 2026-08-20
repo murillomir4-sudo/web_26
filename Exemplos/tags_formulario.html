@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulário</title>
+</head>
+<body>
+
+
+<h1>Exemplos de formularios</h1>
+
+<!-- O metodo deve ser post -->
+<form action="" method="get">
+<!--  Exemplo 1 de um label e input  -->
+    <label>
+        Nome:
+<!--   O nome deve começar com form     -->
+        <input name="form_nome" type="text" placeholder="Digite seu nome" required>
+    </label>
+    <br>
+    <br>
+
+<!-- Exemplo 2 de um label e input   -->
+    <label for="input2">Sobrenome:</label>
+    <input id="input2" name="form_sobrenome" type="text" placeholder="Ex: Silva">
+    <br>
+    <br>
+    <label>
+        Idade
+        <input name="form_idade" type="number" placeholder="Digite sua idade">
+
+    </label>
+    <br>
+    <br>
+    <label>
+        Data de Nascimento
+        <input name="form_data_nascimento" type="date" placeholder="Digite sua data de nascimento">
+
+    </label>
+    <br>
+    <br>
+    <label>
+        Senha
+        <input name="form_senha" type="password" placeholder="Digite sua senha">
+
+    </label>
+    <br>
+    <br>
+    <label>Qual seu Labubu favorito?</label>
+    <br>
+<!--  No input radio os names devem ser iguais  -->
+    <label>
+        <input name="form_labubu" value="1" type="radio">
+        Labubu rosa
+
+    </label>
+    <br>
+    <label>
+        <input name="form_labubu" value="2" type="radio">
+        Labubu azul
+
+    </label>
+    <br>
+    <label>
+        <input name="form_labubu" value="3" type="radio">
+        Labubu verde
+
+    </label>
+    <br>
+    <label>
+        <input name="form_labubu" value="4" type="radio">
+        Outro🫣
+
+    </label>
+    <br>
+    <label>
+        <input name="form_labubu" value="5" type="radio">
+        Odeio Labubu 🤬
+
+    </label>
+    <br>
+    <br>
+    <label>Qual a sua carteira de motorista?</label>
+    <br>
+    <label>
+        <input name="form_carro" type="checkbox">
+        Carro
+    </label>
+    <br>
+    <label>
+        <input name="form_moto" type="checkbox">
+        Moto
+    </label>
+    <br>
+    <label>
+        <input name="form_carreta" type="checkbox">
+        Carreta
+    </label>
+    <br>
+    <label>
+        <input name="form_onibus" type="checkbox">
+        Onibus
+    </label>
+    <br>
+    <br>
+    <label>
+        Comentário:
+        <br>
+        <textarea name="form_comentario" rows="5" cols="25"></textarea>
+    </label>
+    <br>
+    <br>
+    <label>
+        Cidade
+        <select name="form_cidade">
+            <option value="guararapes">Guararapes</option>
+            <option value="aracatuba">Araçatuba</option>
+            <option value="valparaiso">Valparaíso</option>
+
+        </select>
+    </label>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+
+<!--  Sempre vai ser submit para salvar  -->
+    <button type="submit">Salvar</button>
+    <button type="reset">Limpar</button>
+</form>
+
+</body>
+</html>

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulario2</title>
+</head>
+<body>
+<form>
+<label>
+        Nome do Produto:
+        <input name="form_nome_produto" type="text" placeholder="Digite o nome do produto" required>
+</label>
+    <br>
+    <br>
+    <label>
+        Descrição do Produto:
+        <br>
+        <textarea name="from_descrição" rows="10" cols="20" required></textarea>
+    </label>
+    <br>
+    <br>
+    <label>Qual seu a categoria do produto?</label>
+    <br>
+
+    <label>
+        <input name="form_categoria" value="1" type="radio" required>
+        Eletrônico
+
+    </label>
+    <br>
+    <label>
+        <input name="form_categoria" value="2" type="radio" required>
+        Livro
+
+    </label>
+    <br>
+    <label>
+        <input name="form_categoria" value="3" type="radio" required>
+        Brinquedo
+
+    </label>
+    <br>
+    <label>
+        <input name="form_categoria" value="4" type="radio" required>
+        Esporte
+
+    </label>
+    <br>
+    <label>
+        <input name="form_categoria" value="5" type="radio" required>
+        Calçado
+
+    </label>
+    <br>
+    <br>
+    <label>
+        País de Frabricação:
+        <select name="form_pais" required>
+            <option value="brasil">Brasil</option>
+            <option value="china">China</option>
+            <option value="canada">Canada</option>
+            <option value="japao">Japão</option>
+            <option value="paraguai">Paraguai</option>
+
+        </select>
+    </label>
+    <br>
+    <br>
+    <label>
+        Preço do Produto em R$:
+        <input name="form_preco" type="number" placeholder="Digite o preço do produto" required>
+
+    </label>
+    <br>
+    <br>
+    <label>
+        Data de Fabricação:
+        <input name="form_data_fabricacao" type="date" placeholder="Digite a data de fabricação" required>
+
+    </label>
+    <br>
+<button type="submit">Enviar</button>
+    <button type="reset">Redefinir</button>
+
+
+</form>
+</body>
+</html>

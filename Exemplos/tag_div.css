@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+div{
+    width: 200px;
+    height: 200px;
+    background: lightslategrey;
+    padding:10px;
+    /*arredondar*/
+    border-radius: 50px;
+    border: 3px solid darkblue;
+    /*Eixo vertical - Eixo horizontal*/
+    margin: 10px 0;
+
+}
+.container{
+    width: 100%;
+    height: 100px;
+    border:none;
+    background: black;
+    border-radius:0;
+    margin-top:0;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+.menu{
+    width: 50px;
+    background: darkolivegreen;
+    height: 100px;
+    text-align: center;
+}

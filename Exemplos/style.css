@@ -1,0 +1,27 @@
+body {
+    background-color:skyblue;
+}
+
+h1{
+    color: black;
+    text-align: center;
+    font-family:arial;
+
+}
+/* hover é quando o mouse passa por cima*/
+h1:hover{
+    color: crimson;
+}
+
+/* O ponto "." chama a class */
+.atividade{
+    color: white;
+    text-align: left;
+    background: none;
+}
+a{
+    font-size: 24px;
+    text-decoration: none;
+    font-weight: bold;/*negrito*/
+
+}

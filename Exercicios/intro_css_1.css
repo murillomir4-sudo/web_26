@@ -1,0 +1,14 @@
+body{
+    background-color: black;
+}
+
+h1{
+    text-align: center;
+    color:red;
+}
+h2{
+    background-color: red;
+    color: white;
+    font-size: 36px;
+    font-family: arial;
+}
