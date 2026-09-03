@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 80px;
+    height: 100vh;
+    border:none;
+    background-color: red;
+    display: flex;
+    flex-direction: column;
+
+
+
+
+
+
+
+}
+.nome{
+    width: 75px;
+    background:cornflowerblue;
+    color: black;
+    height: 30px;
+    margin: 10px;
+    border-radius: 10px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+
+
+
+
+
+}
+body {
+    background: plum;
+}
+

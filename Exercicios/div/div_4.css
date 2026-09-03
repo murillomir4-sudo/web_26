@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+.container{
+    width: 100%;
+    height: 100vh;
+    border:none;
+    background:plum;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-wrap: wrap;
+
+
+
+}
+
+.janeiro{
+    width: 300px;
+    background:white;
+    color: black;
+    height: 300px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    margin: 10px;
+
+
+
+
+}
+.fevereiro{
+    width: 300px;
+    background:green;
+    color: black;
+    height: 300px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    margin: 10px;
+
+
+
+
+}
+.marco{
+    width: 300px;
+    background:white;
+    color: black;
+    height: 300px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    margin: 10px;
+
+
+
+
+}
+.abril{
+    width: 300px;
+    background:cyan;
+    color: black;
+    height: 300px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    margin: 10px;
+
+
+
+
+}
+.maio{
+    width: 300px;
+    background:white;
+    color: black;
+    height: 300px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    margin: 10px;
+
+
+
+
+}
+.junho{
+    width: 300px;
+    background:cyan;
+    color: black;
+    height: 300px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    margin: 10px;
+
+
+
+
+}
+
+.julho{
+    width: 300px;
+    background:white;
+    color: black;
+    height: 300px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    margin: 10px;
+
+
+
+
+}
+.agosto{
+    width: 300px;
+    background:white;
+    color: black;
+    height: 300px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    margin: 10px;
+
+
+
+
+}
